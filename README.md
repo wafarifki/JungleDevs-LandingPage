@@ -1,0 +1,13 @@
+# JungleDevs-LandingPage
+Hi there 👋 i want to share my exploration for <a href="https://www.jungledevs.com" target="_blank">Jungle Devs</a> Landing Page. <a href="https://www.jungledevs.com" target="_blank">Jungle Devs</a> is a Brazilian company focused on developing people who develop software. Use this for learn. Give me your stars, Don't forget to follow my github profile. Thank you >_<
+
+# Demo
+<a href="https://wafarifki.github.io/JungleDevs-LandingPage">https://wafarifki.github.io/JungleDevs-LandingPage</a>
+
+# Let's connect with me!
+<p>
+    <a href="https://wafarifqi.com" target="_blank"><img src="https://img.shields.io/badge/Website-https://wafarifqi.com-blue?" /></a>
+    <a href="https://www.linkedin.com/in/wafa-rifqi-anafin-553b591b7/" target="_blank"><img src="https://img.shields.io/badge/Linkedin-WafaRifkiAnafin_-blue" /></a>
+    <a href="https://facebook.com/wafarifkianafin" target="_blank"><img src="https://img.shields.io/badge/Facebook-wafarifkianafin-blue" /></a>
+    <a href="https://instagram.com/wafarifki_" target="_blank"><img src="https://img.shields.io/badge/Instagram-@wafarifki_-blue" /></a>
+</p>
