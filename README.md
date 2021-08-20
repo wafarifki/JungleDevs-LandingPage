@@ -2,7 +2,7 @@
 Hi there 👋 i want to share my exploration for <a href="https://www.jungledevs.com" target="_blank">Jungle Devs Company</a>. <a href="https://www.jungledevs.com" target="_blank">Jungle Devs</a> is a Brazilian company focused on developing people who develop software. Use this for learn. Give me your stars, Don't forget to follow my github profile. Thank you >_<
 
 # Figma
-<a href="https://www.figma.com/file/woKueEGLqcOgMM3rBSqmXN/Frontend-Transition-Challenge-1B-Copy?node-id=0%3A1" target="_blank">Click Here For Try Slicing From Design</a>
+<a href="https://www.figma.com/file/woKueEGLqcOgMM3rBSqmXN/JungleDev-LandingPage?node-id=0%3A1" target="_blank">Click Here For Try Slicing From Design</a>
 
 # Demo
 <a href="https://wafarifki.github.io/JungleDevs-LandingPage">https://wafarifki.github.io/JungleDevs-LandingPage</a>
