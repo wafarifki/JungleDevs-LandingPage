@@ -5,3 +5,4 @@ Don't forget to put your name.
 - Mutia Zahra
 - Shivani Sorte
 - Siddhant Khariwal
+- Riya Bhandari
