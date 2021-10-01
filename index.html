@@ -1,280 +1,276 @@
 <!doctype html>
 <html translate="no">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Wafa Rifqi Anafin">
-    <meta name="author-website" content="https://wafarifqi.com">
-    <link rel="shortcut icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/26339449?s=200&v=4" />
-    <title>Welcome to Jungle Devs</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
-        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
-
-<body onload="loadingFunc()">
-    <div id="mengloding">
-        <img class="animates" src="assets/image/LogoWhite.png" alt="Jungle Devs">
-    </div>
-    <div id="kontener">
-        <div class="bagianatas1">
-            <div class="daleman_nav">
-                <nav class="navbar navbar-expand-lg navbar-dark">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#" data-aos="fade-right" data-aos-delay="2300" data-aos-once="true">
-                            <img src="assets/image/Logo.png">
-                        </a>
-                        <button class="menu" id="menue"
-                            onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'));toggleMenu()"
-                            aria-label="Main Menu" style="visibility: hidden;" data-aos="fade-down" data-aos-delay="2300" data-aos-once="true">
-                            <svg width="70" height="70" viewBox="0 0 100 100" style="padding: 0 0 20px 0;">
-                                <path class="line line1"
-                                    d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
-                                <path class="line line2" d="M 20,50 H 80" />
-                                <path class="line line3"
-                                    d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
-                            </svg>
-                        </button>
-                        <div class="collapse navbar-collapse" data-aos="fade-down" data-aos-delay="2300" data-aos-once="true">
-                            <!-- ml-auto still works just fine-->
-                            <div class="navbar-nav ms-auto">
-                                <a class="nav-link active" aria-current="page" href="/">Home</a>
-                                <a class="nav-link" href="#about">About</a>
-                                <a class="nav-link" href="#review">Review</a>
-                                <a class="nav-link tombol" href="#gettingstart">GET STARTED</a>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Wafa Rifqi Anafin">
+        <meta name="author-website" content="https://wafarifqi.com">
+        <link rel="shortcut icon" type="image/x-icon" href="https://avatars.githubusercontent.com/u/26339449?s=200&v=4" />
+        <title>Welcome to Jungle Devs</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+            integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+            integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body onload="loadingFunc()">
+        <div id="mengloding">
+            <img class="animates" src="assets/image/LogoWhite.png" alt="Jungle Devs">
+        </div>
+        <div id="kontener">
+            <div class="bagianatas1">
+                <div class="daleman_nav">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#" data-aos="fade-right" data-aos-delay="2300" data-aos-once="true">
+                                <img src="assets/image/Logo.png">
+                            </a>
+                            <button class="menu" id="menue"
+                                onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'));toggleMenu()"
+                                aria-label="Main Menu" style="visibility: hidden;" data-aos="fade-down" data-aos-delay="2300" data-aos-once="true">
+                                <svg width="70" height="70" viewBox="0 0 100 100" style="padding: 0 0 20px 0;">
+                                    <path class="line line1"
+                                        d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                                    <path class="line line2" d="M 20,50 H 80" />
+                                    <path class="line line3"
+                                        d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+                                </svg>
+                            </button>
+                            <div class="collapse navbar-collapse" data-aos="fade-down" data-aos-delay="2300" data-aos-once="true">
+                                <!-- ml-auto still works just fine-->
+                                <div class="navbar-nav ms-auto">
+                                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                                    <a class="nav-link" href="#about">About</a>
+                                    <a class="nav-link" href="#review">Review</a>
+                                    <a class="nav-link tombol" href="#gettingstart">GET STARTED</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <header>
+                    <ul class="menu-utama2">
+                        <img src="assets/image/LogoWhite.png" id="logonav">
+                        <li><a href="/" id="links">Home</a></li>
+                        <li><a href="#" id="links">About</a></li>
+                        <li><a href="#" id="links">Review</a></li>
+                        <li><a href="#" id="linkstombol">GET STARTED</a></li>
+                    </ul>
+                </header>
+                <div class="konten">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-6 kiri text-left mt-md-4">
+                                <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-once="true">Need an extra push to get to the end of the month? Just Blinc!</h1>
+                                <p data-aos="fade-right" data-aos-delay="2700" data-aos-once="true">We offer quick and innovative loans to get you out<br>of a bind. Learn more about our
+                                    customized<br>solutions for Federal Employees.</p>
+                                <a class="tombol" href="#gettingstart" data-aos="fade-down" data-aos-delay="2800" data-aos-once="true">GET STARTED</a>
+                            </div>
+                            <div class="col-12 col-md-6 kanan text-center mt-md-4 mt-3">
+                                <img src="assets/image/ImageHero.png" alt="Jungle Devs" data-aos="fade-down" data-aos-delay="2500" data-aos-once="true">
                             </div>
                         </div>
                     </div>
-                </nav>
+                </div>
             </div>
-            <header>
-                <ul class="menu-utama2">
-                    <img src="assets/image/LogoWhite.png" id="logonav">
-                    <li><a href="/" id="links">Home</a></li>
-                    <li><a href="#" id="links">About</a></li>
-                    <li><a href="#" id="links">Review</a></li>
-                    <li><a href="#" id="linkstombol">GET STARTED</a></li>
-                </ul>
-            </header>
-            <div class="konten">
+            <div class="bagianbody mt-md-5 mt-4">
+                <div class="container text-center">
+                    <p>Best Class Ratings:</p>
+                    <div class="row text-center">
+                        <div class="col-12 col-md-3 text-center">
+                            <img src="assets/image/rate/Google.png">
+                        </div>
+                        <div class="col-12 col-md-3 text-center">
+                            <img src="assets/image/rate/Facebook.png">
+                        </div>
+                        <div class="col-12 col-md-3 text-center">
+                            <img src="assets/image/rate/Trustpilot.png">
+                        </div>
+                        <div class="col-12 col-md-3 text-center">
+                            <img src="assets/image/rate/BBB.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bagianbody2 mt-md-5 mt-4">
+                <div class="container text-center">
+                    <p class="p1">How It Works</p>
+                    <p class="p2">We use cutting edge technology to offer you a solution that is <b>FAST</b>, <b>SIMPLE</b>
+                        and
+                        <b>SECURE</b>. Follow these three easy steps and you’ll be on your way to the funds you need.</p>
+                    <div class="row text-center">
+                        <div class="col-12 col-md-4 text-center">
+                            <img src="assets/image/howitswork/work1.png">
+                            <br>
+                            <div class="kotak">
+                                <div class="dalemkotak">
+                                    <h2>CREATE YOUR PROFILE</h2>
+                                    <p>All you need is an email and a password to get started!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 text-center">
+                            <img src="assets/image/howitswork/work2.png">
+                            <br>
+                            <div class="kotak">
+                                <div class="dalemkotak">
+                                    <h2>CONNECT YOUR BANK</h2>
+                                    <p>Expedite the loan application process and get your funds in a flash.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 text-center">
+                            <img src="assets/image/howitswork/work3.png">
+                            <br>
+                            <div class="kotak text-center">
+                                <div class="dalemkotak">
+                                    <h2>GET ACCOUNT APPROVED</h2>
+                                    <p>Follow simple steps to finalize the process and get access to the funds you need.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#gettingstart" class="tombol mt-md-4 mt-4">GET STARTED</a>
+                </div>
+            </div>
+            <div class="bagianbody3 mt-md-5 mt-5 pt-4 pt-md-5 pb-md-5 pb-4" id="about">
+                <div class="container text-left">
+                    <div class="dalemnyakotak">
+                        <p class="p1 mt-md-0 mt-2">ABOUT US</p>
+                        <p class="p2">When you least expect it, life happens and at one point or another, we all need an
+                            extra
+                            push to get to the end of the month. That’s what sets BlincLoans apart. We offer <b>FAST</b>,
+                            <b>SIMPLE</b> and <b>SECURE</b> loans that gets you the funds you need when you need them most.
+                        </p>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row mt-md-5">
+                        <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
+                            <img src="assets/image/about/about1.png">
+                        </div>
+                        <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
+                            <img src="assets/image/about/about2.png">
+                        </div>
+                        <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
+                            <img src="assets/image/about/about3.png">
+                        </div>
+                        <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
+                            <img src="assets/image/about/about4.png">
+                        </div>
+                    </div>
+                    <p class="p1 mt-md-4 mt-3">At Blinc, we believe that everyone deserves access to fair and affordable
+                        credit -
+                        that includes you!</p>
+                    <a href="#gettingstart" class="tombol mt-md-4 mt-3">GET STARTED</a>
+                </div>
+            </div>
+            <div class="bagianbody4 pt-4 pb-4 pt-md-5 pb-md-5" id="review">
+                <div class="container text-left">
+                    <div class="dalemnyakotak">
+                        <p class="p1">REVIEWS</p>
+                        <p class="p2">Great customer service, quick response times and an easy interface sets OneBlinc apart
+                            from the competition. Don’t just take it from us. Take a look at what our customers have to say.
+                        </p>
+                    </div>
+                </div>
+                <div class="container text-center">
+                    <div class="row mt-md-5">
+                        <div class="col-12 col-md-4 text-center mt-md-0 mb-md-0 mb-2 mt-2">
+                            <img class="reviews" src="assets/image/review/Review1.jpg">
+                        </div>
+                        <div class="col-12 col-md-4 text-center mt-md-0 mb-md-0 mb-2 mt-2">
+                            <img class="reviews" src="assets/image/review/Review2.jpg">
+                        </div>
+                        <div class="col-12 col-md-4 text-center mt-md-0 mb-md-0 mb-2 mt-2">
+                            <img class="reviews" src="assets/image/review/Review3.jpg">
+                        </div>
+                    </div>
+                    <div class="divbagianbody4">
+                        <p class="p1 mt-md-4">Rated 4.9 out of 5 based on 701 reviews on </p><img
+                            src="assets/image/LogoTrustpilot.png">
+                    </div>
+                    <a href="#gettingstart" class="tombol mt-md-4 mt-3">GET STARTED</a>
+                </div>
+                <div class="help"><i class="far fa-comment"></i> HELP</div>
+            </div>
+            <div class="sebelummasukkefooter mt-md-5 mt-3" id="gettingstart">
                 <div class="container">
+                    <div class="text-center">
+                        <p class="p1">Keep in Touch</p>
+                    </div>
                     <div class="row">
-                        <div class="col-12 col-md-6 kiri text-left mt-md-4">
-                            <h1 data-aos="fade-right" data-aos-delay="2500" data-aos-once="true">Need an extra push to get to the end of the month? Just Blinc!</h1>
-                            <p data-aos="fade-right" data-aos-delay="2700" data-aos-once="true">We offer quick and innovative loans to get you out<br>of a bind. Learn more about our
-                                customized<br>solutions for Federal Employees.</p>
-                            <a class="tombol" href="#gettingstart" data-aos="fade-down" data-aos-delay="2800" data-aos-once="true">GET STARTED</a>
+                        <div class="col-12 col-md-4 text-left">
+                            <p class="title1">Contact US</p>
+                            <p class="subtitle">1-855-400-0449<br>customer@blincloans.com</p>
                         </div>
-                        <div class="col-12 col-md-6 kanan text-center mt-md-4 mt-3">
-                            <img src="assets/image/ImageHero.png" alt="Jungle Devs" data-aos="fade-down" data-aos-delay="2500" data-aos-once="true">
+                        <div class="col-12 col-md-4 text-center">
+                            <p class="title2">Social Networking</p>
+                            <p class="subtitle">
+                                <a href="https://facebook.com/wafarifkianafin" target="_blank"><i
+                                        class="fab fa-facebook-square"></i></a>
+                                <a href="https://instagram.com.com/wafarifki_" target="_blank"><i
+                                        class="fab fa-instagram-square"></i></a>
+                                <a href="https://github.com/wafarifki" target="_blank"><i
+                                        class="fab fa-github-square"></i></a>
+                                <a href="https://www.linkedin.com/in/wafa-rifqi-anafin-553b591b7" target="_blank"><i
+                                        class="fab fa-linkedin"></i></a></p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bagianbody mt-md-5 mt-4">
-            <div class="container text-center">
-                <p>Best Class Ratings:</p>
-                <div class="row text-center">
-                    <div class="col-12 col-md-3 text-center">
-                        <img src="assets/image/rate/Google.png">
-                    </div>
-                    <div class="col-12 col-md-3 text-center">
-                        <img src="assets/image/rate/Facebook.png">
-                    </div>
-                    <div class="col-12 col-md-3 text-center">
-                        <img src="assets/image/rate/Trustpilot.png">
-                    </div>
-                    <div class="col-12 col-md-3 text-center">
-                        <img src="assets/image/rate/BBB.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bagianbody2 mt-md-5 mt-4">
-            <div class="container text-center">
-                <p class="p1">How It Works</p>
-                <p class="p2">We use cutting edge technology to offer you a solution that is <b>FAST</b>, <b>SIMPLE</b>
-                    and
-                    <b>SECURE</b>. Follow these three easy steps and you’ll be on your way to the funds you need.</p>
-                <div class="row text-center">
-                    <div class="col-12 col-md-4 text-center">
-                        <img src="assets/image/howitswork/work1.png">
-                        <br>
-                        <div class="kotak">
-                            <div class="dalemkotak">
-                                <h2>CREATE YOUR PROFILE</h2>
-                                <p>All you need is an email and a password to get started!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 text-center">
-                        <img src="assets/image/howitswork/work2.png">
-                        <br>
-                        <div class="kotak">
-                            <div class="dalemkotak">
-                                <h2>CONNECT YOUR BANK</h2>
-                                <p>Expedite the loan application process and get your funds in a flash.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 text-center">
-                        <img src="assets/image/howitswork/work3.png">
-                        <br>
-                        <div class="kotak text-center">
-                            <div class="dalemkotak">
-                                <h2>GET ACCOUNT APPROVED</h2>
-                                <p>Follow simple steps to finalize the process and get access to the funds you need.</p>
+                        <div class="col-12 col-md-4 text-right">
+                            <p class="title3">Get Updates</p>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Email">
+                                <button class="btn btn-primary" type="button"><i class="fas fa-plus"></i></button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a href="#gettingstart" class="tombol mt-md-4 mt-4">GET STARTED</a>
             </div>
-        </div>
-        <div class="bagianbody3 mt-md-5 mt-5 pt-4 pt-md-5 pb-md-5 pb-4" id="about">
-            <div class="container text-left">
-                <div class="dalemnyakotak">
-                    <p class="p1 mt-md-0 mt-2">ABOUT US</p>
-                    <p class="p2">When you least expect it, life happens and at one point or another, we all need an
-                        extra
-                        push to get to the end of the month. That’s what sets BlincLoans apart. We offer <b>FAST</b>,
-                        <b>SIMPLE</b> and <b>SECURE</b> loans that gets you the funds you need when you need them most.
-                    </p>
+            <div class="footer mt-4 mt-md-5 pt-4 pb-4 pl-md-5 pt-md-5 pr-md-5 pb-md-0">
+                <div class="container text-center">
+                    <a class="footer-nav" href="/">Home</a>
+                    <a class="footer-nav" href="#about">About</a>
+                    <a class="footer-nav" href="#review">Review</a>
+                    <a class="tombol mt-md-0 mt-4" href="#gettingstart">GET STARTED</a>
                 </div>
-            </div>
-            <div class="container text-center">
-                <div class="row mt-md-5">
-                    <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
-                        <img src="assets/image/about/about1.png">
-                    </div>
-                    <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
-                        <img src="assets/image/about/about2.png">
-                    </div>
-                    <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
-                        <img src="assets/image/about/about3.png">
-                    </div>
-                    <div class="col-6 col-md-3 text-center mt-md-0 mb-md-0 mb-2 mt-2">
-                        <img src="assets/image/about/about4.png">
-                    </div>
-                </div>
-                <p class="p1 mt-md-4 mt-3">At Blinc, we believe that everyone deserves access to fair and affordable
-                    credit -
-                    that includes you!</p>
-                <a href="#gettingstart" class="tombol mt-md-4 mt-3">GET STARTED</a>
-            </div>
-        </div>
-        <div class="bagianbody4 pt-4 pb-4 pt-md-5 pb-md-5" id="review">
-            <div class="container text-left">
-                <div class="dalemnyakotak">
-                    <p class="p1">REVIEWS</p>
-                    <p class="p2">Great customer service, quick response times and an easy interface sets OneBlinc apart
-                        from the competition. Don’t just take it from us. Take a look at what our customers have to say.
-                    </p>
-                </div>
-            </div>
-            <div class="container text-center">
-                <div class="row mt-md-5">
-                    <div class="col-12 col-md-4 text-center mt-md-0 mb-md-0 mb-2 mt-2">
-                        <img class="reviews" src="assets/image/review/Review1.jpg">
-                    </div>
-                    <div class="col-12 col-md-4 text-center mt-md-0 mb-md-0 mb-2 mt-2">
-                        <img class="reviews" src="assets/image/review/Review2.jpg">
-                    </div>
-                    <div class="col-12 col-md-4 text-center mt-md-0 mb-md-0 mb-2 mt-2">
-                        <img class="reviews" src="assets/image/review/Review3.jpg">
-                    </div>
-                </div>
-                <div class="divbagianbody4">
-                    <p class="p1 mt-md-4">Rated 4.9 out of 5 based on 701 reviews on </p><img
-                        src="assets/image/LogoTrustpilot.png">
-                </div>
-                <a href="#gettingstart" class="tombol mt-md-4 mt-3">GET STARTED</a>
-            </div>
-            <div class="help"><i class="far fa-comment"></i> HELP</div>
-        </div>
-        <div class="sebelummasukkefooter mt-md-5 mt-3" id="gettingstart">
-            <div class="container">
-                <div class="text-center">
-                    <p class="p1">Keep in Touch</p>
-                </div>
-                <div class="row">
-                    <div class="col-12 col-md-4 text-left">
-                        <p class="title1">Contact US</p>
-                        <p class="subtitle">1-855-400-0449<br>customer@blincloans.com</p>
-                    </div>
-                    <div class="col-12 col-md-4 text-center">
-                        <p class="title2">Social Networking</p>
-                        <p class="subtitle">
-                            <a href="https://facebook.com/wafarifkianafin" target="_blank"><i
-                                    class="fab fa-facebook-square"></i></a>
-                            <a href="https://instagram.com.com/wafarifki_" target="_blank"><i
-                                    class="fab fa-instagram-square"></i></a>
-                            <a href="https://github.com/wafarifki" target="_blank"><i
-                                    class="fab fa-github-square"></i></a>
-                            <a href="https://www.linkedin.com/in/wafa-rifqi-anafin-553b591b7" target="_blank"><i
-                                    class="fab fa-linkedin"></i></a></p>
-                    </div>
-                    <div class="col-12 col-md-4 text-right">
-                        <p class="title3">Get Updates</p>
-                        <div class="input-group mb-3">
-                            <input type="text" class="form-control" placeholder="Email">
-                            <button class="btn btn-primary" type="button"><i class="fas fa-plus"></i></button>
+                <hr class="batas mt-md-5 mt-4 mb-4 mb-md-5">
+                <div class="container">
+                    <div class="row mt-md-4">
+                        <div class="col-12 col-md-6 text-left">
+                            <p class="footext">1. Loan approval may take longer if additional documents are needed to
+                                evaluate applicant and requested loan.<br>
+                                2. Same-day funding option available to selected bank accounts and delivery same business
+                                day options if approved by 3:00pm ET Monday-Friday.
+                                *Loans made by BlincLoans, LLC, subject to its loan approval, terms and conditions. Loans
+                                made on selected states. Borrowers must be U.S. citizens or permanent residents and live in
+                                state where loans are made by BlincLoans.
+                                Testimonials reflect individual's opinion and may not be illustrative of all individual
+                                experiences with BlincLoans.
+                                NMLS #1813996 www.nmlsconsumeraccess.org</p>
+                        </div>
+                        <div class="col-12 col-md-6 align-self-center">
+                            <div class="container text-center">
+                                <a class="footer-nav" href="#">Compliance</a>
+                                <a class="footer-nav" href="#">Terms</a>
+                                <a class="footer-nav" href="#">Privacy</a>
+                                <img src="assets/image/LogoWhite.png" class="logofoot mt-md-0 mt-3">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer mt-4 mt-md-5 pt-4 pb-4 pl-md-5 pt-md-5 pr-md-5 pb-md-0">
-            <div class="container text-center">
-                <a class="footer-nav" href="/">Home</a>
-                <a class="footer-nav" href="#about">About</a>
-                <a class="footer-nav" href="#review">Review</a>
-                <a class="tombol mt-md-0 mt-4" href="#gettingstart">GET STARTED</a>
-            </div>
-            <hr class="batas mt-md-5 mt-4 mb-4 mb-md-5">
-            <div class="container">
-                <div class="row mt-md-4">
-                    <div class="col-12 col-md-6 text-left">
-                        <p class="footext">1. Loan approval may take longer if additional documents are needed to
-                            evaluate applicant and requested loan.<br>
-                            2. Same-day funding option available to selected bank accounts and delivery same business
-                            day options if approved by 3:00pm ET Monday-Friday.
-                            *Loans made by BlincLoans, LLC, subject to its loan approval, terms and conditions. Loans
-                            made on selected states. Borrowers must be U.S. citizens or permanent residents and live in
-                            state where loans are made by BlincLoans.
-                            Testimonials reflect individual's opinion and may not be illustrative of all individual
-                            experiences with BlincLoans.
-                            NMLS #1813996 www.nmlsconsumeraccess.org</p>
-                    </div>
-                    <div class="col-12 col-md-6 align-self-center">
-                        <div class="container text-center">
-                            <a class="footer-nav" href="#">Compliance</a>
-                            <a class="footer-nav" href="#">Terms</a>
-                            <a class="footer-nav" href="#">Privacy</a>
-                            <img src="assets/image/LogoWhite.png" class="logofoot mt-md-0 mt-3">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <button class="keatas"><i class="fas fa-arrow-up"></i></button>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
-        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="assets/js/js.js"></script>
-</body>
-
+        <button class="keatas"><i class="fas fa-arrow-up"></i></button>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+            integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="assets/js/js.js"></script>
+    </body>
 </html>
