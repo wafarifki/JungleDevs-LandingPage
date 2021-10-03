@@ -424,19 +424,22 @@ bagianatas1 {
 }
 
 .footer .tombol {
+    position: relative;
+    top: 13px;
     text-decoration: none;
     background: #26A95D;
-    padding: 12px 32px 12px 32px;
+    padding: 9px 29px 9px 29px;
     color: #ffffff;
     font-family: bolds;
     display: inline-block;
     border: 2px solid #26A95D;
+    
 }
 
 .footer .tombol:hover {
     text-decoration: none;
     background: transparent;
-    padding: 12px 32px 12px 32px;
+    padding: 9px 29px 9px 29px;
     color: #fff;
     font-family: bolds;
     display: inline-block;
@@ -512,6 +515,20 @@ div#mengloding img {
 
 
 @media (min-width: 280px) and (max-width: 670px) {
+
+    .footer .tombol {
+        position: relative;
+        top: -8px;
+        text-decoration: none;
+        background: #26A95D;
+        padding: 9px 28px 9px 28px;
+        color: #ffffff;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+        
+    }
+
     .konten {
         background: #333333;
         padding: 0 10px 40px 10px;
