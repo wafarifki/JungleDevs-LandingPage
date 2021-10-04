@@ -7,4 +7,5 @@ Don't forget to put your name.
 - Siddhant Khariwal
 - Riya Bhandari
 - Pramdhanni Dwi Putra Bintang
+- Sarthak Bindal
 
