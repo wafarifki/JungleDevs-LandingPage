@@ -87,6 +87,7 @@ bagianatas1 {
     color: #ffffff;
     font-family: bolds;
     border: 2px solid #26A95D;
+    transition: ease all 0.5s;
 }
 
 .daleman_nav .navbar-nav .tombol:hover {
@@ -287,6 +288,7 @@ bagianatas1 {
     font-family: bolds;
     display: inline-block;
     border: 2px solid #26A95D;
+    transition: ease all 0.5s;
 }
 
 .bagianbody4 .tombol:hover {
@@ -361,6 +363,7 @@ bagianatas1 {
     font-size: 40px;
     color: #26A95D;
     margin: 0 10px 0 10px;
+    transition: ease all 0.5s;
 }
 
 .sebelummasukkefooter .fab:hover {
@@ -433,7 +436,7 @@ bagianatas1 {
     font-family: bolds;
     display: inline-block;
     border: 2px solid #26A95D;
-    
+    transition: ease all 0.5s;
 }
 
 .footer .tombol:hover {
@@ -787,6 +790,7 @@ div#mengloding img
         font-size: 46px;
         color: #26A95D;
         margin: 0 10px 0 10px;
+        transition: ease all 0.5s;
     }
 
     .sebelummasukkefooter .fab:hover {
@@ -795,6 +799,7 @@ div#mengloding img
         margin: 0 10px 0 10px;
         transform: scale(1.2);
         cursor: pointer;
+        transition: ease all 0.5s;
     }
 
     .menu-utama2 {

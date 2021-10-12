@@ -11,3 +11,4 @@ Don't forget to put your name.
 - Shubham Bawankar (<a href="https://github.com/Shubham56-droid">Shubham56-droid</a>)
 - Yash Kamboj
 - Rajat Mishra
+- Akshay Parmar
