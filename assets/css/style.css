@@ -88,6 +88,13 @@ bagianatas1 {
   font-family: bolds;
 
   border: 2px solid #26a95d;
+    text-decoration: none;
+    background: #26A95D;
+    padding: 10px 32px 10px 32px;
+    color: #ffffff;
+    font-family: bolds;
+    border: 2px solid #26A95D;
+    transition: ease all 0.5s;
 }
 
 .daleman_nav .navbar-nav .tombol:hover {
@@ -296,6 +303,14 @@ a.tombol {
   font-family: bolds;
   display: inline-block;
   border: 2px solid #26a95d;
+    text-decoration: none;
+    background: #26A95D;
+    padding: 16px 52px 16px 52px;
+    color: #ffffff;
+    font-family: bolds;
+    display: inline-block;
+    border: 2px solid #26A95D;
+    transition: ease all 0.5s;
 }
 
 .bagianbody4 .tombol:hover {
@@ -370,6 +385,11 @@ a.tombol {
   font-size: 40px;
   color: #26a95d;
   margin: 0 10px 0 10px;
+
+    font-size: 40px;
+    color: #26A95D;
+    margin: 0 10px 0 10px;
+    transition: ease all 0.5s;
 }
 
 .sebelummasukkefooter .fab:hover {
@@ -442,6 +462,16 @@ a.tombol {
   font-family: bolds;
   display: inline-block;
   border: 2px solid #26a95d;
+    position: relative;
+    top: 13px;
+    text-decoration: none;
+    background: #26A95D;
+    padding: 9px 29px 9px 29px;
+    color: #ffffff;
+    font-family: bolds;
+    display: inline-block;
+    border: 2px solid #26A95D;
+    transition: ease all 0.5s;
 }
 
 .footer .tombol:hover {
@@ -942,4 +972,425 @@ div#mengloding img {
     z-index: 9999;
     width: 55%;
   }
+    .footer .tombol {
+        position: relative;
+        top: -8px;
+        text-decoration: none;
+        background: #26A95D;
+        padding: 9px 28px 9px 28px;
+        color: #ffffff;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+        
+    }
+
+    .konten {
+        background: #333333;
+        padding: 0 10px 40px 10px;
+    }
+
+    .konten .kiri h1 {
+        font-family: bolds;
+        margin: 0 0 0px 0;
+        color: #ffffff;
+        font-size: 36px;
+    }
+
+    .konten .kiri p {
+        font-family: regular;
+        margin: 0 0 0px 0;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .konten .kiri .tombol {
+        margin: 20px 0 0 0;
+        display: inline-block;
+        text-decoration: none;
+        background: #26A95D;
+        padding: 14px 22px 14px 22px;
+        color: #ffffff;
+        font-family: bolds;
+        border: 2px solid #26A95D;
+    }
+
+    .konten .kiri .tombol:hover {
+        margin: 20px 0 0 0;
+        display: inline-block;
+        text-decoration: none;
+        background: transparent;
+        padding: 14px 22px 14px 22px;
+        color: #ffffff;
+        font-family: bolds;
+        border: 2px solid #26A95D;
+        cursor: pointer;
+    }
+
+    .konten .kanan img {
+        margin: 30px 0 0 0;
+        width: 100%;
+    }
+
+    .bagianbody p {
+        font-size: 24px;
+        color: #3D3D3D;
+        font-family: bolds;
+    }
+
+    .bagianbody img {
+        width: 70%;
+    }
+
+    .bagianbody2 .p1 {
+        font-size: 24px;
+        color: #3D3D3D;
+        font-family: bolds;
+    }
+
+    .bagianbody2 .p2 {
+        font-size: 20px;
+        color: #3D3D3D;
+        font-family: regular;
+    }
+
+    .bagianbody2 img {
+        width: 40%;
+    }
+
+    .bagianbody2 h2 {
+        color: #3D3D3D;
+        font-family: bolds;
+        font-size: 24px;
+    }
+
+    .bagianbody2 .kotak {
+        display: inline-block;
+    }
+
+    .bagianbody2 .dalemkotak {
+        width: 200px;
+    }
+
+    .bagianbody2 .tombol {
+        text-decoration: none;
+        background: #26A95D;
+        padding: 12px 22px 12px 22px;
+        color: #ffffff;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+    }
+
+    .bagianbody2 .tombol:hover {
+        text-decoration: none;
+        background: transparent;
+        padding: 12px 22px 12px 22px;
+        color: #26A95D;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+    }
+
+    .bagianbody3 {
+        background: #333333;
+    }
+
+    .bagianbody3 .p1 {
+        font-size: 16px;
+        color: #ffffff;
+        font-family: bolds;
+    }
+
+    .bagianbody3 .p2 {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: regular;
+    }
+
+    .bagianbody3 img {
+        width: 100%;
+    }
+
+    .bagianbody3 .dalemnyakotak {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .bagianbody3 .tombol {
+        text-decoration: none;
+        background: #26A95D;
+        padding: 12px 22px 12px 22px;
+        color: #ffffff;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+    }
+
+    .bagianbody3 .tombol:hover {
+        text-decoration: none;
+        background: transparent;
+        padding: 12px 22px 12px 22px;
+        color: #ffffff;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+    }
+
+    .bagianbody4 {
+        position: relative;
+        background: #828282;
+    }
+
+    .bagianbody4 .divbagianbody4 {
+        display: block;
+    }
+
+    .bagianbody4 .reviews {
+        width: 70%;
+    }
+
+    .bagianbody4 .p1 {
+        margin: 15px 10px 0 0;
+        display: inline-block;
+        font-size: 16px;
+        color: #ffffff;
+        font-family: bolds;
+    }
+
+    .bagianbody4 .p2 {
+        font-size: 20px;
+        color: #ffffff;
+        font-family: regular;
+    }
+
+    .bagianbody4 .dalemnyakotak {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .bagianbody4 .tombol {
+        text-decoration: none;
+        background: #26A95D;
+        padding: 12px 22px 12px 22px;
+        color: #ffffff;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+    }
+
+    .bagianbody4 .tombol:hover {
+        text-decoration: none;
+        background: transparent;
+        padding: 12px 22px 12px 22px;
+        color: #ffffff;
+        font-family: bolds;
+        display: inline-block;
+        border: 2px solid #26A95D;
+    }
+
+    .bagianbody4 .help {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background: #26A95D;
+        padding: 12px 25px 12px 25px;
+        color: #ffffff;
+        font-family: bolds;
+        display: none;
+        border-radius: 30px;
+    }
+
+    .bagianbody4 .help:hover {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background: #333333;
+        padding: 12px 25px 12px 25px;
+        color: #ffffff;
+        font-family: bolds;
+        display: none;
+        border-radius: 30px;
+        cursor: pointer;
+    }
+
+    .sebelummasukkefooter .title1 {
+        font-family: bolds;
+        font-size: 16px;
+        color: #707070;
+    }
+
+    .sebelummasukkefooter .title2 {
+        font-family: bolds;
+        font-size: 24px;
+        color: #3D3D3D;
+    }
+
+    .sebelummasukkefooter .title3 {
+        font-family: bolds;
+        font-size: 16px;
+        color: #707070;
+    }
+
+    .sebelummasukkefooter .fab {
+        font-size: 46px;
+        color: #26A95D;
+        margin: 0 10px 0 10px;
+        transition: ease all 0.5s;
+    }
+
+    .sebelummasukkefooter .fab:hover {
+        font-size: 46px;
+        color: #3D3D3D;
+        margin: 0 10px 0 10px;
+        transform: scale(1.2);
+        cursor: pointer;
+        transition: ease all 0.5s;
+    }
+
+    .menu-utama2 {
+        background: #26A95D;
+    }
+
+    header ul.menu-utama2.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 10;
+        text-decoration: none;
+        list-style: none;
+        padding: 0;
+    }
+
+    header .menu-utama2 #linkstombol {
+        text-decoration: none;
+        margin: 14px 0;
+        display: block;
+        background: #3D3D3D;
+        color: #fff;
+        font-family: bolds;
+        padding: 12px 22px;
+        border: 2px solid #3D3D3D;
+    }
+
+    header .menu-utama2 #linkstombol:hover {
+        text-decoration: none;
+        margin: 14px 0;
+        display: block;
+        background: transparent;
+        color: #fff;
+        font-family: bolds;
+        padding: 12px 22px 12px 22px;
+        border: 2px solid #fff;
+    }
+
+    header .menu-utama2 #links {
+        font-family: bolds;
+        text-decoration: none;
+        font-size: 1.5em;
+        color: #fff;
+        transition: 1s;
+        margin: 14px 0;
+        display: block;
+        border-top: 2px solid transparent;
+        border-bottom: 2px solid transparent;
+    }
+
+    header .menu-utama2 #links:hover {
+        font-family: bolds;
+        border-top: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+    }
+
+    header #logonav {
+        position: absolute;
+        top: 33px;
+        left: 32px;
+    }
+
+    .menu {
+        background: #26A95D;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        padding: 0;
+        visibility: visible !important;
+        width: 50px;
+        height: 50px;
+        border-radius: 8px;
+        outline: none;
+        z-index: 1234;
+    }
+
+    .menu:focus {
+        outline: none;
+        border: none;
+    }
+
+    .menu:active {
+        outline: none;
+        border: none;
+    }
+
+    .line {
+        fill: none;
+        stroke-width: 4;
+        transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+            stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .line1 {
+        stroke-dasharray: 60 207;
+        stroke-width: 4;
+        stroke: white;
+    }
+
+    .line2 {
+        stroke-dasharray: 60 60;
+        stroke-width: 4;
+        stroke: white;
+    }
+
+    .line3 {
+        stroke-dasharray: 60 207;
+        stroke-width: 4;
+        stroke: white;
+    }
+
+    .opened .line1 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 4;
+        stroke: white;
+    }
+
+    .opened .line2 {
+        stroke-dasharray: 1 60;
+        stroke-dashoffset: -30;
+        stroke-width: 4;
+        stroke: white;
+    }
+
+    .opened .line3 {
+        stroke-dasharray: 90 207;
+        stroke-dashoffset: -134;
+        stroke-width: 4;
+        stroke: white;
+    }
+
+    .footer .logofoot {
+        width: 50%;
+    }
+
+    div#mengloding img {
+        z-index: 9999;
+        width: 55%;
+    }
 }
