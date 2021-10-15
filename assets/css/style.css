@@ -1388,9 +1388,18 @@ div#mengloding img {
     .footer .logofoot {
         width: 50%;
     }
+   
 
     div#mengloding img {
         z-index: 9999;
         width: 55%;
     }
+}
+.text-footer{
+  text-align: center;
+  padding: 30px 0;
+  font-family: 'Courier New', Courier, monospace;
+  display:flex;
+  justify-content: center;
+  color:white;
 }
