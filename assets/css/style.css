@@ -1403,3 +1403,7 @@ div#mengloding img {
   justify-content: center;
   color:white;
 }
+
+.ms-auto {
+	font-style: italic;
+}
