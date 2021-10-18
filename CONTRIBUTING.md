@@ -1,7 +1,7 @@
 Don't forget to put your name.
 
-- Ayush Chaudhary
 - Wafa Rifqi Anafin
+- Ayush Chaudhary
 - Mutia Zahra
 - Shivani Sorte
 - Siddhant Khariwal
@@ -15,3 +15,4 @@ Don't forget to put your name.
 - Akshay Parmar
 - RISHABH KUMAR
 - Harine Murugan
+- Muryadii
