@@ -16,3 +16,4 @@ Don't forget to put your name.
 - RISHABH KUMAR
 - Harine Murugan
 - Muryadii
+- Namrata Jain (<a href="https://github.com/Namrata-J">Namrata-J</a>)
