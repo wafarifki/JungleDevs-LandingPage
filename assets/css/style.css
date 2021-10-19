@@ -104,6 +104,7 @@ bagianatas1 {
   color: #ffffff;
   font-family: bolds;
   border: 2px solid #26a95d;
+  border-radius: 2rem;
 }
 
 .konten {
@@ -143,6 +144,7 @@ bagianatas1 {
   font-family: bolds;
   border: 2px solid #26a95d;
   cursor: pointer;
+  border-radius: 2rem;
 }
 
 .konten .kanan img {
@@ -216,6 +218,7 @@ a.tombol {
   font-family: bolds;
   display: inline-block;
   border: 2px solid #26a95d;
+  border-radius: 2rem;
 }
 
 .bagianbody3 {
@@ -261,6 +264,7 @@ a.tombol {
   font-family: bolds;
   display: inline-block;
   border: 2px solid #26a95d;
+  border-radius: 2rem;
 }
 
 .bagianbody4 {
@@ -321,6 +325,8 @@ a.tombol {
   font-family: bolds;
   display: inline-block;
   border: 2px solid #26a95d;
+  border-radius: 2rem;
+  border-radius: 2rem;
 }
 
 .bagianbody4 .help {
@@ -346,6 +352,7 @@ a.tombol {
   display: block;
   border-radius: 30px;
   cursor: pointer;
+  border-radius: 2rem;
 }
 
 .sebelummasukkefooter {
@@ -398,6 +405,7 @@ a.tombol {
   margin: 0 10px 0 10px;
   transform: scale(1.2);
   cursor: pointer;
+  border-radius: 2rem;
 }
 
 .sebelummasukkefooter .btn-primary {
@@ -414,6 +422,7 @@ a.tombol {
   border-color: #3d3d3d;
   outline: none;
   border: none;
+  border-radius: 2rem;
 }
 
 .sebelummasukkefooter .btn:focus,
@@ -482,6 +491,7 @@ a.tombol {
   font-family: bolds;
   display: inline-block;
   border: 2px solid #26a95d;
+  border-radius: 2rem;
 }
 
 .footer .batas {
@@ -608,6 +618,7 @@ div#mengloding img {
     font-family: bolds;
     border: 2px solid #26a95d;
     cursor: pointer;
+    border-radius: 2rem;
   }
 
   .konten .kanan img {
@@ -718,6 +729,7 @@ div#mengloding img {
     font-family: bolds;
     display: inline-block;
     border: 2px solid #26a95d;
+    border-radius: 2rem;
   }
 
   .bagianbody4 {
@@ -770,6 +782,7 @@ div#mengloding img {
     font-family: bolds;
     display: inline-block;
     border: 2px solid #26a95d;
+    border-radius: 2rem;
   }
 
   .bagianbody4 .help {
@@ -795,6 +808,7 @@ div#mengloding img {
     display: none;
     border-radius: 30px;
     cursor: pointer;
+    border-radius: 2rem;
   }
 
   .sebelummasukkefooter .title1 {
